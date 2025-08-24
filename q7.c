@@ -4,12 +4,16 @@
 #include <stdio.h>
 
 int main() {
-    int x, y;
+   int x,y;
+    printf("enter a no. here: ");
+    scanf("%d",&x);
+    printf("enter another no. here: ");
+    scanf("%d",&y);
+    printf("before swaping %d and %d\n",x,y);
+    x= x+y;
+    y=x-y;
+    x=x-y;
+    printf("after swaping %d and %d \n",x,y);
 
-    printf("Enter a number: ");
-    scanf("%d", &x);
-    printf("enter another ")
-
-    
     return 0;
 }
