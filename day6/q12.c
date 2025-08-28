@@ -21,6 +21,7 @@ Positive
 #include <stdio.h>
 int main() {
 int a;
+
 printf("input a integer: ");
 scanf("%d",&a);
 if (a<0)
