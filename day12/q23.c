@@ -19,6 +19,6 @@ printf("Membership cancelled.");
 else if (x==0)
 printf("0 fine");
 else
-printf("enter a valid value.");
+printf("entered a valid value.");
 return 0;
 }
