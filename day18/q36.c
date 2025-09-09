@@ -10,8 +10,7 @@ int x,y=1;
  for (x=1 ;x<=a;x++)
 {  if (((a%x)==0)&&(b%x)==0)
         {
-            if(y<a)
-            y=x;
+        y=x;
         }
     }
 return y;

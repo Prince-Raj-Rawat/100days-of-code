@@ -3,7 +3,6 @@
 
 
 #include <stdio.h>
-#include <math.h>
 void factors_of_number(int a){
     int x;
     
