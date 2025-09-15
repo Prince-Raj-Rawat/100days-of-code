@@ -5,28 +5,12 @@
       **
         * */
 
-/*
-Sample Test Cases:
-Input 1:
 
-Output 1:
-*****
-  ****
-    ***
-      **
-        *
-
-Input 2:
-
-Output 2:
-Note: Spaces indicate indentation.
-
-*/
 
 #include <stdio.h>
 int main(){
 int row;
-printf("enter tehe no. of rows: ");
+printf("enter the no. of rows: ");
 scanf("%d",&row);
 
 for (int i =1;i<=row;i++)

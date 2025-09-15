@@ -18,34 +18,19 @@ Output 1:
 
 */
 #include <stdio.h>
-
-void rows(int a,int b);
-void numbers(int b,int c);
 int main(){
-    int n;
-    printf("enter no of rows: ");
-    scanf("%d",&n);
-    rows(n,n);
-    return 0;
+int i,row,star;
+printf("enter no of rows: ");
+scanf("%d",&row);
+for(i=1;i<=row;i++)
+{
+
+    for(star=1;star<=i;star++)
+    printf("%d",star);
+printf("\n");
 }
-
-//print numbers
-void numbers(int b, int c){
-    if(b==0)
-    return;
-    else
-    printf("%d",c);
+return 0;
 
 
-    numbers(b-1,c+1);
-}
-//print rows
-void rows(int a , int b){
-    if (a==0)
-    return;
-    else
-    numbers(b-(a-1),1);
-    
-    printf("\n");
-    rows(a-1,b);
+
 }

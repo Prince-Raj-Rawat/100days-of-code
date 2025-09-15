@@ -5,19 +5,6 @@
 ****
 ***** */
 
-/*
-Sample Test Cases:
-Input 1:
-
-Output 1:
-*
-**
-***
-****
-*****
-
-*/
-
 #include <stdio.h>
 void rows(int a,int b);
 void stars(int b,int c);

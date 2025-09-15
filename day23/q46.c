@@ -5,28 +5,16 @@
 *****
 ***** */
 #include <stdio.h>
-void rows(int n,int a);
 int main(){
-    int n,a;
-    printf("enter no. of rows: ");
-    scanf("%d",&n);
-    a=n;
-    rows(n,a);
-    return 0;
+int i,row,star;
+printf("enter no of rows: ");
+scanf("%d",&row);
+for(i=1;i<=row;i++)
+{
+    for(star=1;star<=row;star++)
+    printf("*");
+printf("\n");
 }
-void star(int n){
-   if(n==0)
-   return ;
-   else 
-  { printf("*");
-    star((n-1));}
 
-}
-void rows(int n,int a){
-    if(n==0)
-    return ;
-    else
-    star(a);
-    printf("\n");
-    rows(n-1,a);
+
 }
