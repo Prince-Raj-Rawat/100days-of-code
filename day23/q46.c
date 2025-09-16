@@ -16,5 +16,5 @@ for(i=1;i<=row;i++)
 printf("\n");
 }
 
-
+return 0;
 }

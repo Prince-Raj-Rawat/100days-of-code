@@ -9,22 +9,7 @@
 ***
 *
 */
-/*
-Sample Test Cases:
-Input 1:
 
-Output 1:
-*
-***
-*****
-*******
-*********
-*******
-*****
-***
-*
-
-*/
 
 #include <stdio.h>
 int main() {

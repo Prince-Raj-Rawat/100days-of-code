@@ -1,25 +1,18 @@
 /*Q54: Write a program to print the following pattern:
 
 *
-/
+
 ***
-/
+
 *****
 *******
 ***
-/
+
 *
 
 
 */
-/*
-Sample Test Cases:
-Input 1:
 
-Output 1:
-Pattern with layers of stars as shown.
-
-*/
 
 #include <stdio.h>
 int main() {
@@ -27,11 +20,10 @@ int i,n,brow,star;
 printf("enter a odd number: ");
 scanf("%d",&n);
 brow=(n+1)/2;
-if(brow%2 !=0)
-{
 if(n%2!=0)
 {
-
+if (brow%2!=0)
+{
     for(i=1;i<=n;i++)
     {
         if(i%2!=0 && i<=brow)
@@ -59,10 +51,8 @@ if(n%2!=0)
         
     }
    
-
 }
-}
-else if (brow%2==0)
+else
 {
       for(i=1;i<=n;i++)
     {
@@ -95,10 +85,12 @@ else if (brow%2==0)
 
 
 }
-
-else
-printf("invalid no.");
-
-return 0;
 }
 
+else
+printf("invalid no. please enter a odd number");
+
+return 0;
+
+
+}
