@@ -21,11 +21,11 @@ int n,i;
 printf("enter the amount of no u wanna enter: ");
 scanf("%d",&n);
 int x[50];
-for(i=1;i<=n;i++)
+for(i=0;i<n;i++)
     {
-    scanf("%d ",&x[i]);
+    scanf("%d",&x[i]);
     }
-for(i=1;i<=n;i++)
+for(i=0;i<n;i++)
     {
         printf("%d ",x[i]);
     }
